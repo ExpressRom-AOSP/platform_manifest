@@ -3,5 +3,6 @@
 
   <!-- ExpressRom additions -->
   <project path="vendor/lineage" name="vendor_express" remote="express" />
-
+  <project path="lineage-sdk" name="express-sdk" remote="express" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="express" />
 </manifest>
