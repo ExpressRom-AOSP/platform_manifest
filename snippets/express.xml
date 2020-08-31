@@ -2,9 +2,30 @@
 <manifest>
 
   <!-- ExpressRom additions -->
-  <project path="vendor/lineage" name="vendor_express" remote="express" />
-  <project path="lineage-sdk" name="express-sdk" remote="express" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="express" />
+  <project path="vendor/lineage" name="vendor_express" remote="express" revision="ten-gsi"/>
+  <project path="lineage-sdk" name="express-sdk" remote="express" revision="ten-gsi" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="express" revision="ten-gsi" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="express" />
-  <project path="frameworks/base" name="frameworks_base" remote="express" />
+  <project path="frameworks/base" name="frameworks_base" remote="express" revision="ten-gsi" />
+  <project path="device/phh/treble" name="device_phh_treble" remote="express" revision="ten-gsi" />
+  <project path="external/skia" name="external_skia" remote="express" revision="ten-gsi" />
+  <project path="system/vold" name="system_vold" remote="express" revision="ten-gsi" />
+  <project path="system/netd" name="system_netd" remote="express" revision="ten-gsi" />
+  <project path="system/core" name="system_core" remote="express" revision="ten-gsi" />
+  <project path="system/bt" name="system_bt" remote="express" revision="ten-gsi" />
+  <project path="system/bpf" name="system_bpf" remote="express" revision="ten-gsi" />
+  <project path="packages/services/Telephony" name="paackages_services_Telephony" remote="express" revision="ten-gsi" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="express" revision="ten-gsi" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="express" revision="ten-gsi" />
+  <project path="frameworks/av" name="frameworks_av" remote="express" revision="ten-gsi" />
+  <project path="external/selinux" name="external_selinux" remote="express" revision="ten-gsi" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="express" revision="ten-gsi" />
+  <project path="bionic" name="bionic" remote="express" revision="ten-gsi" />
+  <project path="frameworks/native" name="frameworks_native" remote="express" revision="ten-gsi" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="express" revision="ten-gsi" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="express" revision="ten-gsi" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="express" revision="ten-gsi" />
+  <project path="hardware/lineage/interfaces" name="hardware_express_interfaces" remote="express" revision="ten-gsi" />
+  <project path="packages/apps/LineageParts" name="packages_apps_ExpressParts" remote="express" revision="ten-gsi" />
+
 </manifest>
