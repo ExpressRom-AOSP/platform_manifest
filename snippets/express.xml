@@ -6,4 +6,5 @@
   <project path="lineage-sdk" name="express-sdk" remote="express" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="express" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="express" />
+  <project path="frameworks/base" name="frameworks_base" remote="express" />
 </manifest>
