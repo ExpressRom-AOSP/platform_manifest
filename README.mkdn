@@ -11,7 +11,24 @@ To initialize your local repository using the ExpressRom trees, use a command li
 ```
 repo init -u git://github.com/ExpressRom-AOSP/platform_manifest -b ten
 ```
+
+If you have a local manifest file, put it in `.repo/local_manifests` now to avoid having to do it later.
+
 Then to sync up:
 ```
 repo sync
 ```
+
+Then to initialise trees:
+```
+. build/envsetup.sh
+```
+
+
+
+And then finally
+
+```
+brunch (device)
+```
+Where (device) is to be replaced with your device's codename - e.g **channel** for Motorola G7 Play
