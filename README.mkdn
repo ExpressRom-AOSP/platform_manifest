@@ -1,4 +1,4 @@
-ExpressROM AOSP
+ExpressROM AOSP (GSI)
 ===========
 
 Getting started
@@ -9,9 +9,38 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the ExpressRom trees, use a command like this:
 ```
-repo init -u git://github.com/ExpressRom-AOSP/platform_manifest -b ten
+repo init -u git://github.com/ExpressRom-AOSP/platform_manifest -b ten-gsi
 ```
 Then to sync up:
 ```
 repo sync
 ```
+
+Then to initialise treble trees:
+```
+. build/envsetup.sh
+cd device/phh/treble
+bash generate.sh lineage
+cd ../../..
+```
+
+Then to pick treble architecture:
+```
+lunch treble_(arch)_avN-userdebug | for A-only (or SaS)
+```
+or
+```
+lunch treble_(arch)_bvN-userdebug | for A/B (or SaR)
+```
+Where (arch) is to be replaced with one of the following:
+```
+arm | arm64 | a64
+```
+
+And then finally
+
+```
+WITHOUT_CHECK_API=true mka systemimage -jX
+```
+
+where X refers to the number of jobs. 
