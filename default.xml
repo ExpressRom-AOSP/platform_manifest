@@ -17,6 +17,10 @@
            fetch="https://github.com/ExpressRom-AOSP"
            revision="ten" />
 
+  <remote  name="express-gitlab"
+           fetch="https://gitlab.com/ExpressRom-AOSP"
+           revision="ten" />
+
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-c="true"
