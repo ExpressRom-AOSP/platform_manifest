@@ -27,5 +27,6 @@
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="express" revision="ten-gsi" />
   <project path="hardware/lineage/interfaces" name="hardware_express_interfaces" remote="express" revision="ten-gsi" />
   <project path="packages/apps/LineageParts" name="packages_apps_ExpressParts" remote="express" revision="ten-gsi" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="express-gitlab" />
 
 </manifest>
